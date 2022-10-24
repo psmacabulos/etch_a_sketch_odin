@@ -1,0 +1,23 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: greenyellow;
+  /* column-gap: 1px;
+  row-gap: 1px; */
+}
+.grid {
+  background-color: blue;
+  flex: 1 1 6.25%;
+  min-height: 5vh;
+  border: 1px solid yellow;
+}
